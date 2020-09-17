@@ -63,9 +63,8 @@ class Student():
         return f'{self.full_name} is {self.age} and is in cohort {self.cohort_number}.'
 
 james = Student()
-james.first_name = "james"
+james.first_name = 'james'
 james.last_name = "nitz"
 james.age = 27
 james.cohort_number = 37
-
-print(james)
+print(james.full_name)
